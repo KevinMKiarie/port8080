@@ -23,5 +23,5 @@ const paths = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <RouterProvider router={paths} />
-  </React.StrictMode>
+  </React.StrictMode>,
 );

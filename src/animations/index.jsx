@@ -55,7 +55,7 @@ export const preloaderAnimation = () => {
         ease: "power3.easeout",
         onComplete: mobileLanding(),
       },
-      "-=2"
+      "-=2",
     )
     .from(".landing__main .text", {
       duration: 2,
